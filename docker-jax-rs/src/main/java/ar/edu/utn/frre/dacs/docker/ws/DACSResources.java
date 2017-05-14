@@ -22,11 +22,11 @@ import javax.ws.rs.Path;
  * @author Dr. Jorge Eduardo Villaverde
  *
  */
-@Path("cliente")
-public class ClienteResources {
+@Path("dacs")
+public class DACSResources {
 
 	@GET
 	public String cliente() {
-		return "Clientes: " + System.currentTimeMillis();	
+		return "Desarrollo de Aplicaciones Cliente-Servidor: " + System.currentTimeMillis();	
 	}
 }
