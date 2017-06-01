@@ -1,4 +1,5 @@
 FROM airhacks/wildfly
+
 ADD mysql-connector-java-5.1.31-bin.jar ${INSTALL_DIR}
 ADD execute.sh ${INSTALL_DIR}
 
